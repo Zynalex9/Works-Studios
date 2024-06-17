@@ -11,6 +11,11 @@
     />
   </head>
   <body>
+    <div id="loader">
+        <div class="yellow-section"></div>
+        <video src="./assets/loader-video.mp4" autoplay loop muted></video>
+        <div class="yellow-section1"></div>
+    </div>
     <div id="main">
       <div id="section1" data-scroll>
         <div class="banner-text">
@@ -146,10 +151,12 @@
             </div>
             </div>
         </div>
+        <div id="section3"></div>
       </div>
-      <div id="section3"></div>
     </div>
+
     <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>    
     <script src="script.js"></script>
   </body>
 </html>

@@ -11,3 +11,20 @@ const scroll = new LocomotiveScroll({
   el: document.querySelector("#main"),
   smooth: true,
 });
+var tl = gsap.timeline()
+tl.to("#loader .yellow-section",{
+  y:"-100%",
+  duration:0.3,
+  delay:0.3
+})
+tl.to("#loader video",{
+  y:"-100%",
+  duration:0.3
+})
+tl.to("#loader .yellow-section1",{
+  y:"-100%",
+  duration:0.2,
+})
+setTimeout(() => {
+  document.getElementById("loader").remove();
+}, 1000);

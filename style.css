@@ -16,6 +16,9 @@
   box-sizing: border-box;
   /* font-family: fbp; */
 }
+body {
+  background-color: black;
+}
 #loader {
   position: fixed;
   width: 100%;
@@ -139,6 +142,7 @@
   width: 100%;
   position: relative;
   padding: 1vw 2vw;
+  background-color: #fff;
 }
 
 #section3 .content {
@@ -194,7 +198,6 @@
   border: 2px solid;
   object-fit: cover;
 }
-
 
 @keyframes move {
   from {
